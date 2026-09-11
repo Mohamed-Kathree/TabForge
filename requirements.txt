@@ -1,3 +1,7 @@
+# basic-pitch's resampy dependency imports pkg_resources, which newer
+# setuptools no longer bundles.
+setuptools<81
+
 # Milestone 1 (ugly but complete): load clip, transcribe, greedy fingering, ASCII output
 librosa
 numpy
@@ -5,15 +9,19 @@ scipy
 soundfile
 basic-pitch
 
+# Milestone 2: MIDI verification loop
+pretty_midi
+
 # Milestone 3: fingering DP (uses only numpy, already listed above)
 
 # Milestone 4: source separation + tuning detection
 demucs
 
-# Milestone 5-6: MIDI/GuitarPro export + Streamlit UI
-pretty_midi
+# Milestone 6: Guitar Pro export + Streamlit UI
 PyGuitarPro
 streamlit
+pandas
+matplotlib
 
 # Tests
 pytest

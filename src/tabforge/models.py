@@ -22,3 +22,9 @@ class TabEvent:
     duration: float
     string: int
     fret: int
+
+
+# Standard tuning, index 0 = low E ... 5 = high e. Shared by fingering
+# (pitch -> position) and render (position -> pitch, for MIDI/GP export).
+OPEN_STRING_PITCHES = [40, 45, 50, 55, 59, 64]
+STRING_NAMES = ["E", "A", "D", "G", "B", "e"]
