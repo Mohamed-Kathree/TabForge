@@ -1,0 +1,19 @@
+# Milestone 1 (ugly but complete): load clip, transcribe, greedy fingering, ASCII output
+librosa
+numpy
+scipy
+soundfile
+basic-pitch
+
+# Milestone 3: fingering DP (uses only numpy, already listed above)
+
+# Milestone 4: source separation + tuning detection
+demucs
+
+# Milestone 5-6: MIDI/GuitarPro export + Streamlit UI
+pretty_midi
+PyGuitarPro
+streamlit
+
+# Tests
+pytest
